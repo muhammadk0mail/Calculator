@@ -1,0 +1,38 @@
+
+
+div{
+ margin: 5px;
+}
+
+#firstdiv{
+    margin-left: 15px;
+}
+#lastdiv{
+    margin-left: 23px;
+}
+#maindiv{
+    margin: 250px;
+    border-color: black !important;
+    border-radius: 10px;
+    border-style: solid;
+    display: inline-block;
+
+}
+#divofvalues{
+    margin-left: 30px;
+}
+#value{
+    padding: -10%;
+}
+input{
+    border-radius: 10px;
+    border-color:black;
+    color:black;
+    background-color: cadetblue;
+}
+#label{
+    margin-left: 35px;
+    
+    /* margin-bottom: 15px;
+    margin-top: 15px;     */
+}

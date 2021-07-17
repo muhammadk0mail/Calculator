@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+<div id="maindiv">
+    <label for="" id="label">CALCULATOR</label>
+    <div>
+        <input type="text"  id="val" disabled>
+    </div>
+
+<div id="divofvalues">
+<div id="firstdiv">
+    <input type="button" onclick="del()" value="AC">
+    <input type="button" onclick="input('/')" value="/">
+    <input type="button" onclick="input('%')" value="%">
+
+</div>
+
+<div>
+    <input type="button" onclick="input('7')" value="7">
+    <input type="button" onclick="input('8')" value="8">
+    <input type="button" onclick="input('9')" value="9">
+    <input type="button" onclick="input('*')" value="*">
+</div>
+
+<div>
+    <input type="button" onclick="input('4')" value="4">
+    <input type="button" onclick="input('5')" value="5">
+    <input type="button" onclick="input('6')" value="6">
+    <input type="button" onclick="input('-')" value="-">
+</div>
+
+<div>
+    <input type="button" onclick="input('1')" value="1">
+    <input type="button" onclick="input('2')" value="2">
+    <input type="button" onclick="input('3')" value="3">
+    <input type="button" onclick="input('+')" value="+">
+</div>    
+
+<div id="lastdiv">
+    <input type="button" onclick="input('0')" value="0">
+    <input type="button" onclick="input('.')" value=".">
+    <input type="button" onclick="equal('=')" value="=">
+</div>    
+</div>
+</div>
+    <script src="app.js"></script>
+</body>
+</html>
